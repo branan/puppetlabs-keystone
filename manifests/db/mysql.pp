@@ -16,7 +16,7 @@
 # [host] Host where user should be allowed all priveleges for database.
 # Optional. Defaults to 127.0.0.1.
 #
-# [allowed_hosts] Hosts allowed to use the database
+# [allowed_hosts] Additional hosts allowed to use the database. Optional
 #
 # == Dependencies
 #   Class['mysql::server']

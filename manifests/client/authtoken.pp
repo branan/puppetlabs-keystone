@@ -4,10 +4,10 @@
 #
 # == Parameters
 #  [name] Name of the target file for the authtoken fragment.
-#  [order] Used to determine the order of the fragments. Optional.
-#    Defaults to 80, which places it near to the end of the file.
+#  [order] Used to determine the order of the fragments.
+#    Optional. Defaults to 80, which places it near to the end of the file.
 #  [admin_token] Keystone admin token that can serve as a shared secret
-#    for authenticating. If this is choosen if is used instead of a user,tenant,password.
+#    for authenticating. If this is choosen it is used instead of a user,tenant,password.
 #    Optional. Defaults to false.
 #  [admin_user] User used to authenticate service.
 #    Optional. Defaults to admin
@@ -17,12 +17,12 @@
 #    Optional. Defaults to ChangeMe.
 #  [admin_tenant_name]
 #    Optional. Defaults to openstack.
-#  [auth_host] Host providing the keystone service API endpoint. Optional.
-#    Defaults to 127.0.0.1
-#  [auth_port] Port where keystone service is listening. Optional.
-#    Defaults to 3557.
-#  [auth_protocol] Protocol to use to communicate with keystone. Optional.
-#    Defaults to https.
+#  [auth_host] Host providing the keystone service API endpoint.
+#    Optional. Defaults to 127.0.0.1
+#  [auth_port] Port where keystone service is listening.
+#    Optional. Defaults to 3557.
+#  [auth_protocol] Protocol to use to communicate with keystone.
+#    Optional. Defaults to https.
 #
 # == Authors
 #

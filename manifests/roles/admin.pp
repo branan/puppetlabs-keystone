@@ -13,8 +13,7 @@
 #   - adds admin role to admin user on the "admin" tenant
 # [*Parameters*]
 #
-# [email] The email address for the admin. Optional. Defaults to demo@puppetlabs.com.
-#    TODO should be required.
+# [email] The email address for the admin. Required.
 # [password] The admin password. Optional. Defaults to ChangeMe
 #    TODO should be required.
 # [admin_tenant] The name of the tenant to be used for admin privileges. Optional. Defaults to openstack.
