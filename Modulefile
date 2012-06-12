@@ -1,5 +1,5 @@
 name    'puppetlabs-keystone'
-version '0.1.0'
+version '0.1.1'
 source  'git://github.com/puppetlabs/puppetlabs-keystone'
 author  'Puppet Labs'
 license 'Apache'
